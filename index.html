@@ -71,5 +71,46 @@
           Your browser does not support the video element.
         </video>
     </div>
+
+    <form>
+        <fieldset>
+            <legend>Feedback Form</legend>
+    
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+    
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+    
+            <div>
+                <label for="best_lang">Best Programming Language:</label>
+                <input list="languages" id="fav_lang" name="fav_lang">
+                <datalist id="languages">
+                    <option value="Python">
+                    <option value="C">
+                    <option value="Java">
+                    <option value="CPP">
+                    <option value="Matlab">
+                </datalist>
+            </div>
+
+            <div>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+    
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+
+    <footer>
+        <p>Copyright &copy; Advaith Ravishankar</p>
+    </footer>
   </body>
 </html>
